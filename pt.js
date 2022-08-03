@@ -185,11 +185,58 @@ var num= [45,55,48,55,44,29,100]
 
 // Loop Practice======================================================
 
-var  i=0;
-while( i <= 39){
-    console.log("Ajke amar mon valo nei");
-    i++;
+// var  i=0;
+// while( i <= 39){
+//     console.log("Ajke amar mon valo nei");
+//     i++;
+// }
+
+
+
+
+// for(let i = 58; i <= 98; i++){
+
+//     console.log(i);
+
+// }
+
+
+// even Number
+// var e=412
+
+// while( e <= 456){
+//     console.log(e);
+//     e+=2;
+// }
+
+//odd
+
+// var odd=581
+
+// while( odd <= 623){
+//     console.log(odd);
+//     odd+=2;
+// }
+
+
+
+for(let i = 30; i<= 86; i++){
+    
+   var cp = i
+   if( cp == 56){
+    break;
+   }
+   console.log(cp);
 }
 
 
-for(let i = 58; i <= 98; i++)
+
+
+
+var myBookPrice = 250;
+
+if(myBookPrice > 200){
+    console.log('Book price 200');
+}else{
+    console.log('Book price 150');
+}
